@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const authenticateToken = require("./userAuth");
 const Cart = require("../models/cart");
-const Book = require('../models/Book');
+const Book = require('../models/book');
 
 
 // PUT: Add book to cart
